@@ -12,13 +12,32 @@ p{
 .container{
     background-color: #fbf7e3;
     padding: 25px 20px;
+    border-radius: 30px;
+    margin-top: 10px;
 }
 
-.img{
-    background-image: url(../imgs/honey.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 80%;
-    height: 360px;
-    margin-top: 15px;
+img{
+    padding-top: 30px;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .container{
+        display: flex;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        flex-shrink: 5;
+    }
+    .img{
+        display: flex;
+    }
+    img{
+        padding: initial;
+        margin-right: 25px;
+    }
 }
