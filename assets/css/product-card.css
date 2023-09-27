@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.product{
+    display: flex;
+    background: #fbf7e3;
+    flex-direction: row;
+    color: #612406;
+    width: 250px;
+    height: 110px;
+    border-radius: 0 0 80px 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 0.7em;
+}
+
+.img-container{
+    background-image: url(../imgs/honey.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 80px 80px 0 0 ;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card h2{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.product-card p{
+    font-size: 1em;
+    margin: 0;
+    align-self: center;
+}
+
+.price{
+    font-size: 1.5em;
+}
+
+button{
+    background: #f3df85;
+    border: none;
+    color: #612406;
+    font-size: 1em;
+    width: 150px;
+    padding: 0.7em 0;
+    margin: 1em 0;
+    border-radius: 30px;
+}
